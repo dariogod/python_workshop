@@ -9,7 +9,7 @@
 ## 3. Install Python interpreter
 
 ### Windows
-Install Python from python.org. You can typically use the Download Python button that appears first on the page to download the latest version.
+Install Python from [python.org](www.python.org). You can typically use the Download Python button that appears first on the page to download the latest version.
 
 Note: If you don't have admin access, an additional option for installing Python on Windows is to use the Microsoft Store. The Microsoft Store provides installs of Python 3.7, Python 3.8, Python 3.9, and Python 3.10. Be aware that you might have compatibility issues with some packages using this method.
 
