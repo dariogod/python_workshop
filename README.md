@@ -13,7 +13,7 @@ Install Python from [python.org](https://www.python.org/downloads/). You can typ
 
 Note: If you don't have admin access, an additional option for installing Python on Windows is to use the Microsoft Store. The Microsoft Store provides installs of Python 3.7, Python 3.8, Python 3.9, and Python 3.10. Be aware that you might have compatibility issues with some packages using this method.
 
-For additional information about using Python on Windows, see Using Python on Windows at Python.org
+For additional information about using Python on Windows, see [Using Python on Windows at Python.org](https://docs.python.org/3.9/using/windows.html)
 
 ### macOS
 The system install of Python on macOS is not supported. Instead, an installation through Homebrew is recommended. To install Python using Homebrew on macOS use brew install python3 at the Terminal prompt.
