@@ -1,7 +1,7 @@
 # Workshop Python
 
 ## Install Visual Studio Code
-Ga naar deze link en installeer Visual Studio Code. Dit is een code editor waarin je code kan schrijven, aanpassen en uitvoeren. 
+Ga naar deze link en installeer Visual Studio Code. Dit is een software-ontwikkelomgeving waarin je code kan schrijven, aanpassen en uitvoeren. 
 
 >https://code.visualstudio.com/
 
