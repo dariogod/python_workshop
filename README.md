@@ -1,13 +1,13 @@
 # Workshop Python
 
 ## Install Visual Studio Code (VSC)
-Visual Studio code is an IDE (integrated development environment) for programmers to write, adjust and execute code. 
+Visual Studio code is een software-ontwikkelplatform oftewel IDE (integrated development environment) voor programmeurs om code te schrijven, aan te passen en uit te voeren. 
 
 >[Visual Studio Code](https://code.visualstudio.com/)
 
 
 ## Install Python extension
-A Visual Studio Code extension with rich support for the Python language, including features such as IntelliSense (Pylance), linting, debugging, code navigation, code formatting, refactoring, variable explorer, test explorer, and more!
+Deze extensie levert ondersteuning voor Python in VSC.
 
 >[Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 
