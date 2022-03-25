@@ -33,7 +33,7 @@ Om Python te installeren voer `brew install python3` uit.
 
 ### Linux
 De systeeminstallatie van Python 3 werkt goed. Om Python packages te installeren moet men eerst pip installeren via
-`get-pip.py`
+[get-pip.py](https://pip.pypa.io/en/stable/installation/#get-pip-py)
 
 ## Theorie
 
