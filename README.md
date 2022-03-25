@@ -1,7 +1,7 @@
 # Workshop Python
 
 ## Install Visual Studio Code (VSC)
-Visual Studio code is een software-ontwikkelplatform oftewel IDE (integrated development environment) voor programmeurs om code te schrijven, aan te passen en uit te voeren. 
+Visual Studio code is een software-ontwikkelplatform (Engels: IDE (integrated development environment)) voor programmeurs om code te schrijven, aan te passen en uit te voeren. 
 
 >[Visual Studio Code](https://code.visualstudio.com/)
 
