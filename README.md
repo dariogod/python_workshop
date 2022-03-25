@@ -1,27 +1,27 @@
 # Workshop Python
 
-## Install Visual Studio Code (VSC)
+## Installeer Visual Studio Code (VSC)
 Visual Studio code is een software-ontwikkelplatform (Engels: IDE (integrated development environment)) voor programmeurs om code te schrijven, aan te passen en uit te voeren. 
 
 >[Visual Studio Code](https://code.visualstudio.com/)
 
 
-## Install Python extension
+## Installeer Python extension
 Deze extensie levert ondersteuning voor Python in VSC.
 
->[Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+>[Python Extensie](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 
 
-## Install Python interpreter
+## Installeer Python interpreter
 
 Voor deze workshop gebruiken we Python. Python is de meest abstracte taal en daarom het meest geschikt om mee te beginnen als programmeertaal.
 
 ### Windows
-Om python te installeren volg je deze link: [Install Python](https://www.python.org/downloads/)
+Om python te installeren volg je deze link: [Installeer Python](https://www.python.org/downloads/)
 
 Om zeker te zijn open je de terminal op windows (Command Prompt) en voer `python` uit. Nu zou de versie die je gedownload hebt tevoorschijn moeten komen.
 
-Voor meer informatie: [Using Python on Windows at Python.org](https://docs.python.org/3.9/using/windows.html)
+Voor meer informatie: [Python gebruiken op windows](https://docs.python.org/3.9/using/windows.html)
 
 ### macOS
 The system install of Python on macOS is not supported. Instead, an installation through Homebrew is recommended. To install Python using Homebrew on macOS use brew install python3 at the Terminal prompt.
