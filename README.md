@@ -19,7 +19,7 @@ Voor deze workshop gebruiken we Python. Python is de meest abstracte taal en daa
 ### Windows
 Om python te installeren volg je deze link: [Installeer Python](https://www.python.org/downloads/)
 
-Om zeker te zijn open je de terminal op windows (Command Prompt) en voer `python` uit. Nu zou de versie die je gedownload hebt tevoorschijn moeten komen.
+Om zeker te zijn open je de terminal op windows (Command Prompt) en voer `py -3 --version` uit. Nu zou de versie die je gedownload hebt tevoorschijn moeten komen.
 
 Voor meer informatie: [Python gebruiken op windows](https://docs.python.org/3.9/using/windows.html)
 
