@@ -30,10 +30,10 @@ Om Homebrew te installeren voer
 uit in de Terminal.
 Om Python te installeren voer `brew install python3` uit.
 
-Note On macOS, make sure the location of your VS Code installation is included in your PATH environment variable. See these setup instructions for more information.
 
 ### Linux
-The built-in Python 3 installation on Linux works well, but to install other Python packages you must install pip with get-pip.py.
+De systeeminstallatie van Python 3 werkt goed. Om Python packages te installeren moet men eerst pip installeren via
+`get-pip.py`
 
 ## Theorie
 
