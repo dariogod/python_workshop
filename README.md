@@ -37,7 +37,10 @@ Om de installatie te veriefiëren open je de terminal en voer `python3 --version
 De systeeminstallatie van Python 3 werkt goed. Om Python packages te installeren moet men eerst pip installeren via
 `apt install python3-pip` in de terminal.
 
-## Theorie
+Om de installatie te veriefiëren open je de terminal en voer `python3 --version` uit. Nu zou de versie die je gedownload hebt tevoorschijn moeten komen.
+
+
+## Hello World!
 
 ## Pong
 Programmeren leer je door te doen. En het is altijd leuker om iets visueel te programmeren. Daarom programmeren we nu Pong.
