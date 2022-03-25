@@ -31,3 +31,22 @@ The built-in Python 3 installation on Linux works well, but to install other Pyt
 ## Theorie
 
 ## Pong
+Programmeren leer je door te doen. En het is altijd leuker om iets visueel te programmeren. Daarom programmeren we nu Pong.
+
+Open opgave.py
+
+Om te beginnen laden we enkele modules in.
+```
+import turtle
+import os
+import time
+```
+
+Vervolgens maken we eerst een scherm waar het spel in gaan programmeren. 
+```
+wn = turtle.Screen()
+wn.title("Pong")
+wn.bgcolor("black")
+wn.setup(width=800, height=600)
+wn.tracer(0)
+``` 
