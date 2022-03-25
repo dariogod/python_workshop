@@ -7,6 +7,7 @@ Visual Studio code is an IDE (integrated development environment) for programmer
 
 
 ## Install Python extension
+A Visual Studio Code extension with rich support for the Python language, including features such as IntelliSense (Pylance), linting, debugging, code navigation, code formatting, refactoring, variable explorer, test explorer, and more!
 
 >[Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 
