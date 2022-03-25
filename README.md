@@ -41,6 +41,9 @@ Om de installatie te verifiëren open je de terminal en voer `python3 --version`
 
 
 ## Hello World!
+In deze sectie gaan we over enkele basisvaardigheden die men nodig heeft om een eerste programma te schrijven
+
+
 
 ## Pong
 Programmeren leer je door te doen. En het is altijd leuker om iets visueel te programmeren. Daarom programmeren we nu Pong.
