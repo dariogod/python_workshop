@@ -1,7 +1,7 @@
 # Workshop Python
 
 ## Install Visual Studio Code (VSC)
-Ga naar deze link en installeer VSC. Dit is een software-ontwikkelomgeving waarin je code kan schrijven, aanpassen en uitvoeren. 
+Visual Studio code is an IDE (integrated development environment) for programmers to write, adjust and execute code. 
 
 >[Visual Studio Code](https://code.visualstudio.com/)
 
