@@ -7,11 +7,8 @@ Ga naar deze link en installeer VSC. Dit is een software-ontwikkelomgeving waari
 
 ## Install Python extension
 
-Open VSC > ga naar *Extensions* > zoek op *Python* > installeer de eerste extensie
 
-OF
-
->[Klik op deze link](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+>[Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 
 
 
