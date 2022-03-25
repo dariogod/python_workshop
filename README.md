@@ -25,7 +25,9 @@ Voor meer informatie: [Python gebruiken op windows](https://docs.python.org/3.9/
 
 ### macOS
 De systeeminstallatie van Python op macOS wordt niet ondersteund. Gebruik daarom een installatie via [Homebrew](https://brew.sh/). 
-Om Homebrew te installeren voer `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"` uit in de Terminal.
+Om Homebrew te installeren voer 
+`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"` 
+uit in de Terminal.
 Om Python te installeren voer `brew install python3` uit.
 
 Note On macOS, make sure the location of your VS Code installation is included in your PATH environment variable. See these setup instructions for more information.
