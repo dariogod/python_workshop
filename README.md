@@ -3,13 +3,12 @@
 ## Install Visual Studio Code (VSC)
 Ga naar deze link en installeer VSC. Dit is een software-ontwikkelomgeving waarin je code kan schrijven, aanpassen en uitvoeren. 
 
->https://code.visualstudio.com/
+>[Visual Studio Code](https://code.visualstudio.com/)
+
 
 ## Install Python extension
 
-
 >[Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
-
 
 
 ## Install Python interpreter
