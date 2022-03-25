@@ -19,7 +19,7 @@ Voor deze workshop gebruiken we Python. Python is de meest abstracte taal en daa
 ### Windows
 Om python te installeren volg je deze link: [Installeer Python](https://www.python.org/downloads/)
 
-Om de installatie te veriefiëren open je de terminal op windows (Command Prompt) en voer `py -3 --version` uit. Nu zou de versie die je gedownload hebt tevoorschijn moeten komen.
+Om de installatie te verifiëren open je de terminal op windows (Command Prompt) en voer `py -3 --version` uit. Nu zou de versie die je gedownload hebt tevoorschijn moeten komen.
 
 Voor meer informatie: [Python gebruiken op windows](https://docs.python.org/3.9/using/windows.html)
 
@@ -30,14 +30,14 @@ Om Homebrew te installeren voer
 uit in de Terminal.
 Om Python te installeren voer `brew install python3` uit.
 
-Om de installatie te veriefiëren open je de terminal en voer `python3 --version` uit. Nu zou de versie die je gedownload hebt tevoorschijn moeten komen.
+Om de installatie te verifiëren open je de terminal en voer `python3 --version` uit. Nu zou de versie die je gedownload hebt tevoorschijn moeten komen.
 
 
 ### Linux
 De systeeminstallatie van Python 3 werkt goed. Om Python packages te installeren moet men eerst pip installeren via
 `apt install python3-pip` in de terminal.
 
-Om de installatie te veriefiëren open je de terminal en voer `python3 --version` uit. Nu zou de versie die je gedownload hebt tevoorschijn moeten komen.
+Om de installatie te verifiëren open je de terminal en voer `python3 --version` uit. Nu zou de versie die je gedownload hebt tevoorschijn moeten komen.
 
 
 ## Hello World!
