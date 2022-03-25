@@ -1,11 +1,17 @@
 # Workshop Python
 
-## Install Visual Studio Code
-Ga naar deze link en installeer Visual Studio Code. Dit is een software-ontwikkelomgeving waarin je code kan schrijven, aanpassen en uitvoeren. 
+## Install Visual Studio Code (VSC)
+Ga naar deze link en installeer VSC. Dit is een software-ontwikkelomgeving waarin je code kan schrijven, aanpassen en uitvoeren. 
 
 >https://code.visualstudio.com/
 
 ## Install Python extension
+
+Open VSC > ga naar *Extensions* > zoek op *Python* > installeer de eerste extensie
+
+OF
+
+>[Klik op deze link](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 
 
 
