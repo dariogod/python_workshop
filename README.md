@@ -50,3 +50,26 @@ wn.bgcolor("black")
 wn.setup(width=800, height=600)
 wn.tracer(0)
 ``` 
+
+Nu hebben we twee paddles nodig om mee te spelen. Deze maken we als volgt aan.
+```
+paddle_a = turtle.Turtle()
+paddle_a.speed(0)
+paddle_a.shape("square")
+paddle_a.color("white")
+paddle_a.shapesize(stretch_wid=5,stretch_len=1)
+paddle_a.penup()
+paddle_a.goto(-350, 0)
+```
+
+Een bal kan ook handig zijn
+```
+ball = turtle.Turtle()
+ball.speed(0)
+ball.shape("square")
+ball.color("white")
+ball.penup()
+ball.goto(0, 0)
+ball.dx = 1
+ball.dy = 1
+```
