@@ -54,10 +54,28 @@ Hello World is het eerste programma van elke programmeur.
 
 Maak een nieuw bestand en noem deze *hello.py*  
 Ons eerste programma bestaat slechts uit 1 lijn:  
-`python print('hello world!')`  
+```python 
+print('hello world!')
+```  
 Om deze code uit te voeren schuiven we de terminal naar boven en geven we in:  
 `py hello.py` (windows)  
 `python3 hello.py` (linux en mac)
+
+### Python als rekenmachine
+probeer eens:  
+```python
+print(5+5)
+print('5+5')
+```
+Merk je het verschil op?
+
+nu gaan we onze eerste variabelen declareren:
+```python
+x = 20
+print(x)
+print(x/2)
+print(x*4-2, ' is een getal')
+```
 
 ## Pong
 Programmeren leer je door te doen. En het is altijd leuker om iets visueel te programmeren. Daarom programmeren we nu Pong.
