@@ -54,7 +54,7 @@ Hello World is het eerste programma van elke programmeur.
 
 Maak een nieuw bestand en noem deze *hello.py*  
 Ons eerste programma bestaat slechts uit 1 lijn:  
-`print('hello world!')`  
+`python print('hello world!')`  
 Om deze code uit te voeren schuiven we de terminal naar boven en geven we in:  
 `py hello.py` (windows)  
 `python3 hello.py` (linux en mac)
@@ -66,7 +66,7 @@ Doel: https://user-images.githubusercontent.com/81807266/160153440-caea3456-0ab1
 Open opgave.py
 
 Om te beginnen laden we enkele modules in.
-```
+```python
 import turtle
 import os
 import time
@@ -93,7 +93,7 @@ paddle_a.goto(-350, 0)
 ```
 
 Een bal kan ook handig zijn
-```
+```python
 ball = turtle.Turtle()
 ball.speed(0)
 ball.shape("square")
