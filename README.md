@@ -73,7 +73,7 @@ import time
 ```
 
 Vervolgens maken we eerst een scherm waar het spel in gaan programmeren. 
-```
+```python
 wn = turtle.Screen()
 wn.title("Pong")
 wn.bgcolor("black")
