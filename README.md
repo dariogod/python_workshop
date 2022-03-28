@@ -41,7 +41,19 @@ Om de installatie te verifiëren open je de terminal en voer `python3 --version`
 
 
 ## Hello World!
-In deze sectie gaan we over enkele basisvaardigheden die men nodig heeft om een eerste programma te schrijven
+In deze sectie gaan we over enkele basisvaardigheden die men nodig heeft om een eerste programma te schrijven.
+
+### Directory opstellen
+Ga naar uw bureaublad en maak een nieuwe map. Noem deze bijvoorbeeld *Workshop_Python*
+In deze map zullen we al onze programma's steken.
+Open nu VSC.
+Ga naar File > Open Folder.. 
+Kies hier de map die we zonet hebben aangemaakt.
+
+### Hello World!
+Hello World is het eerste programma van elke programmeur.
+
+
 
 
 
