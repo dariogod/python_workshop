@@ -120,6 +120,7 @@ Is de output hetgeen je verwacht had?
 running = True
 i = 0
 while running:
+    print(i)
     if i == 6:
         running = False
     i = i + 1
