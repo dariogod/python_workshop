@@ -99,14 +99,14 @@ while i < 5:
     i = i + 1 
 ```
 
-De constanten *true* en *false* worden ook wel eens gebruikt in deze context
+De constanten *True* en *False* worden ook wel eens gebruikt in deze context
 ```python
 i = 0
 while True:
     print(i)
     i = i + 1
 ```
-U ziet dat de functie nooit stopt..  
+U ziet dat de lus nooit stopt..  
 Je kunt deze (gelukkig) handmatig stoppen door de toetsencombinatie Ctrl + X.
 
 ### Geneste lussen
