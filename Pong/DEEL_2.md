@@ -54,10 +54,10 @@ def paddle_a_up():
     y += 20
     paddle_a.sety(y)
 ```
-Nu hebben we een functie die paddle a omhoog laat gaan. We willen dat deze opgeroepen wordt telkens wanneer een toets wordt ingedrukt. We gaan de functie dus binnen aan een toets op het toetsenbord.
+Nu hebben we een functie die paddle a omhoog laat gaan. We willen dat deze opgeroepen wordt telkens wanneer een toets wordt ingedrukt. We gaan de functie dus binden aan een toets op het toetsenbord.
 ```python
 wn.listen()
-wn.onkeypress(paddle_a_up, "w")
+wn.onkeypress(paddle_a_up, "z")
 ```
 Test it!
 Je zal zien dat je de paddle uit het scherm kan laten bewegen. Dit is niet de bedoeling. Hoe los je dit op?
@@ -69,11 +69,11 @@ ball.dx = 1
 ball.dy = 1
 ```
 
-Oke nu staat alles klaar om de logica van het spel te implementeren. We gaan terug naar de main game loop.
+Nu staat alles klaar om de logica van het spel te implementeren. We gaan terug naar de main game loop.
 Wat moet er steeds gebeuren tijdens een game loop?
 - Alle objecten (turtles) moeten getekend worden
 - Fysica toepassen op het spel:
-    * De posities moeten geupdate worden (rekening houdend met de snelheid)
+    * De posities moeten geüpdatet worden (rekening houdend met de snelheid)
     * Controleren of er botsingen gebeuren tussen objecten 
     * Zo ja, de snelheden en richtingen aanpassen
 
