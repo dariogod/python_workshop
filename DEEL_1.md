@@ -28,7 +28,11 @@ probeer eens:
 print(5+5)
 print('5+5')
 ```
-Merk je het verschil op?
+Merk je het verschil op?  
+Wanneer we beiden combineren, kunnen we iets doen als:
+```python
+print('5+5=', 5+5)
+```
 
 nu gaan we onze eerste variabelen declareren:
 ```python
