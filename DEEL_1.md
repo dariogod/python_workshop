@@ -111,7 +111,7 @@ while True:
     i = i + 1
 ```
 U ziet dat de lus nooit stopt..  
-Je kunt deze (gelukkig) handmatig stoppen door de toetsencombinatie Ctrl + X.
+Je kunt deze (gelukkig) handmatig stoppen door de toetsencombinatie Ctrl + C.
 
 ### Geneste lussen
 Voer de volgende functie eens uit.  
