@@ -92,6 +92,8 @@ def maal_2(x):  #Definitie van de functie
     y = x*2     #Gedrag van de funcite
     return y    #Return de gewenste waarde
 ```
+Merk de inleidende spaties op! Deze zijn heel belangerijk in Python. Ze geven namelijk aan welke code bij elkaar hoort. Meestal worden 4 spaties gebruikt, deze kunnen namelijk snel geplaatst worden m.b.v. de TAB-toets.
+
 om deze functie te gebruiken zullen we de functie moeten aanroepen:
 ```python
 print(maal_2(10))
