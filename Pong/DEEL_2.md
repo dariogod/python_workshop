@@ -1,6 +1,6 @@
 ## Pong
 Programmeren leer je door te doen. En het is altijd leuker om iets visueel te programmeren. Daarom programmeren we nu Pong.
-Doel: https://user-images.githubusercontent.com/81807266/160153440-caea3456-0ab1-49cd-9a6b-d8ab990ee676.mp4
+Doel: [PONG](https://user-images.githubusercontent.com/81807266/160153440-caea3456-0ab1-49cd-9a6b-d8ab990ee676.mp4)
 
 Maak een nieuw bestand aan en noem deze *pong.py*.
 Kopieer de inhoud van *pong.py* uit deze github repository en plak deze in het bestand.
