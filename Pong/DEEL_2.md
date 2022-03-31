@@ -3,7 +3,7 @@ Programmeren leer je door te doen. En het is altijd leuker om iets visueel te pr
 Doel: https://user-images.githubusercontent.com/81807266/160153440-caea3456-0ab1-49cd-9a6b-d8ab990ee676.mp4
 
 Maak een nieuw bestand aan en noem deze *opgave.py*.
-Kopieer de opgave-code van github en plak deze in het bestand.
+Kopieer de inhoud van *pong.py* uit deze github repository en plak deze in het bestand.
 
 Om te beginnen laden we de module turtle in. Dit zal ons helpen om Pong visueel voor te stellen.
 ```python
