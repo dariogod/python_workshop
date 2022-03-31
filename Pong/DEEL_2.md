@@ -222,8 +222,8 @@ txt_quit.write("Press q to quit", align="center", font=("Courier", 24, "normal")
 ```
 
 ### Vragen?
-Aarzel niet om vragen te stellen tijdens de workshop.
-Je kan ons na de workshop steeds bereiken via
-Dario.God@ugent.be
-Wout.DeRijck@ugent.be
-Yanis.VanEeckhout@ugent.be
+Aarzel niet om vragen te stellen tijdens de workshop.  
+Je kan ons na de workshop steeds bereiken via  
+Dario.God@ugent.be  
+Wout.DeRijck@ugent.be  
+Yanis.VanEeckhout@ugent.be  
