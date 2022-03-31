@@ -70,11 +70,10 @@ print(z==15) #Zie je het verschil tussen = en == ?
 
 ```
 
-Programmeurs zijn per definitie luie mensen, hoemeer code je kan hergebruiken of zelf niet hoeft te schrijven hoe beter! Maar hoe importeren we die code (beter gekend als een module) in onze bestanden? Hieronder zie je een voorbeeldje.
+Programmeurs zijn per definitie luie mensen, hoe meer code je kan hergebruiken of zelf niet hoeft te schrijven, hoe beter! Maar hoe importeren we die code (beter gekend als een module) in onze bestanden? Hieronder zie je een voorbeeldje.
 
-Sommige wiskundige functies en constanten zitten niet standaard in Python.  
-Hiervoor moet je eerst een module importeren: *math*  
-Een module importeren doe je als volgt:  
+De module *math* laat toe bepaalde wiskundige functies en constanten te gebruiken in Python.  
+Hieronder zie je hoe je zo'n module importeert en gebruikt.
 ```python
 import math
 print(math.pi)              #De constante pi
