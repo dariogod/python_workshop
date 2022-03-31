@@ -4,7 +4,7 @@ Deze tutorial is gebaseerd op *TokyoEdtech*'s Pong-implementatie. Zie [YouTube](
 Programmeren leer je door te doen. En het is altijd leuker om iets visueel te programmeren. Daarom programmeren we nu Pong.
 Doel: [video](https://user-images.githubusercontent.com/81807266/160153440-caea3456-0ab1-49cd-9a6b-d8ab990ee676.mp4)
 
-
+### Get started
 Maak een nieuw bestand aan en noem deze *pong.py*.  
 Kopieer de inhoud van *pong.py* uit deze github repository en plak deze in het bestand.
 
@@ -29,7 +29,10 @@ while True:
 ```
 Wanneer je dit programmaatje uitvoert, krijg je een zwart scherm met breedte 800 en hoogte 600 en coordinaten (0,0) in het centrum.
 
-Nu hebben we twee paddles nodig om mee te spelen. Deze maken we als volgt aan. Aangezien dit vooral setup is en je hier niet zoveel mee bijleert, kan je deze code gewoon copy-pasten. (Een tweede paddle volledig analoog)
+### Turtles
+Om objecten toe te voegen aan het spel maken we gebruik van turtles. Deze kunnen allerlei dingen voorstellen die op het scherm verschijnen.
+
+We hebben twee paddles nodig om mee te spelen. Deze maken we als volgt aan. Aangezien dit vooral setup is en je hier niet zoveel mee bijleert, kan je deze code gewoon copy-pasten. (Een tweede paddle volledig analoog)
 ```python
 paddle_a = turtle.Turtle()
 paddle_a.speed(0)
@@ -51,6 +54,7 @@ ball.penup()
 ball.goto(0, 0)
 ```
 
+### Movement
 Nu beginnen we aan het echte werk. Er zijn 2 paddles en een bal. Hoe gaan we ze laten bewegen?
 ```python
 def paddle_a_up():
@@ -75,6 +79,8 @@ Je kan spelen met deze nummers om met de snelheid te spelen.
 ball.dx = 1
 ball.dy = 1
 ```
+
+### Game Loop
 
 Nu staat alles klaar om de logica van het spel te implementeren. We gaan terug naar de main game loop.
 Wat moet er steeds gebeuren tijdens een game loop?
@@ -126,6 +132,7 @@ Stap 2: Controleren of er botsingen gebeuren tussen objecten
 Test it!  
 Proficiat! Je hebt nu een werkend spel!  
 
+### Scores
 Om het spel competitief te maken kunnen we ook een scorebord bijhouden.  
 Om de score op het scherm te schrijven gebruiken we opnieuw een turtle.  
 Deze code kan je copy-pasten.
@@ -157,7 +164,9 @@ pen.clear()
 pen.write("Player A: {}  Player B: {}".format(score_a, score_b), align="center", font=("Courier", 24, "normal"))
 ```
 
-Proficiat! Het spel is volledig af!  
+Proficiat! Het spel is volledig af! 
+
+### Extra's
 Nu is er nog een mogelijkheid om wat leuke extraatjes toe te voegen.  
 Denk maar aan:
 - Geluid bij een botsing toevoegen
@@ -211,3 +220,10 @@ txt_quit.hideturtle()
 txt_quit.goto(0, -280)
 txt_quit.write("Press q to quit", align="center", font=("Courier", 24, "normal"))
 ```
+
+### Vragen?
+Aarzel niet om vragen te stellen tijdens de workshop.
+Je kan ons na de workshop steeds bereiken via
+Dario.God@ugent.be
+Wout.DeRijck@ugent.be
+Yanis.VanEeckhout@ugent.be
