@@ -123,6 +123,7 @@ Stap 2: Controleren of er botsingen gebeuren tussen objecten
 ```
 Test it!  
 Proficiat! Je hebt nu een werkend spel!  
+
 Om het spel competitief te maken kunnen we ook een scorebord bijhouden.  
 Om de score op het scherm te schrijven gebruiken we opnieuw een turtle.  
 Deze code kan je copy-pasten.
@@ -137,29 +138,33 @@ txt_score.hideturtle()
 txt_score.goto(0, 260)
 txt_score.write("Player A: 0  Player B: 0", align="center", font=("Courier", 24, "normal"))
 ```
-Deze staan nu vast op 0:0, maar het is de bedoeling dat we scores bijhouden en deze ook updaten wanneer een punt wordt gescoord. 
+Het scorebord staat nu vast op 0:0.  
+Het is natuurlijk de bedoeling dat we scores bijhouden en deze ook updaten wanneer een punt wordt gemaakt.   
 We houden dus twee variabelen bij.
 ```python
 # Score
 score_a = 0
 score_b = 0
 ```
-Pas de game loop aan zodat de scores worden geupdate.
-Om de juiste score te tekenen kan je volgende code gebruiken
+
+Pas de game loop aan zodat de scores worden geupdatet (Dit zal gebeuren in borderchecking left en right).  
+
+Om de juiste score te tekenen kan je volgende code gebruiken.
 ```python
 pen.clear()
 pen.write("Player A: {}  Player B: {}".format(score_a, score_b), align="center", font=("Courier", 24, "normal"))
 ```
 
-Proficiat! Het spel is volledig af! 
-Nu is er nog een mogelijkheid om wat leuke extraatjes toe te voegen.
+Proficiat! Het spel is volledig af!  
+Nu is er nog een mogelijkheid om wat leuke extraatjes toe te voegen.  
 Denk maar aan:
 - Geluid bij een botsing toevoegen
-- Een keybinding maken om het spel af te sluiten
+- Tekst om een het spel af te sluiten ('Press Q to quit')
 - Een obstakel toevoegen dat het wat moeilijker wordt
 - Een algoritme schrijven voor paddle_b zodat je ook singleplayer kan spelen
+- De bal laten versnellen bij contact met paddle zodat het spel gradueel moeilijker wordt
 
-Voorbeeld:
+Voorbeeld 1:
 Om telkens wanneer de bal botst een geluidje te laten afspelen kan je de module os inladen en volgende code gebruiken
 ```python
 import os
@@ -194,13 +199,13 @@ wn.onkeypress(quit, "q")
 ```
 Nu wil je de gebruiker ook laten weten dat dit een mogelijkheid is. Dit kan je doen door het op het scherm te schrijven.
 ```python
-# Pen 2
-pen2 = turtle.Turtle()
-pen2.speed(0)
-pen2.shape("square")
-pen2.color("white")
-pen2.penup()
-pen2.hideturtle()
-pen2.goto(0, -280)
-pen2.write("Press q to quit", align="center", font=("Courier", 24, "normal"))
+# Text: Quit
+txt_quit = turtle.Turtle()
+txt_quit.speed(0)
+txt_quit.shape("square")
+txt_quit.color("white")
+txt_quit.penup()
+txt_quit.hideturtle()
+txt_quit.goto(0, -280)
+txt_quit.write("Press q to quit", align="center", font=("Courier", 24, "normal"))
 ```
