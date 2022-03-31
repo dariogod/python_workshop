@@ -37,15 +37,13 @@ print('5+5=', 5+5)
 De print functie zal 5+5 en '5+5' anders verwerken omdat ze van een ander datatype zijn. In wat volgt zullen we een aantal verschillende datatypes zien en hun gedrag
 in verschillende contexten gaan vergelijken.
 
-Om het simpel te houden zullen we kijken naar 4 verschillende types:
+Om het simpel te houden zullen we kijken naar 4 verschillende types om data op te slaan:
 | Naam  | Voorbeeld | Uitleg |
 | ------------- | ------------- | ------------- |
 | Integer  | 42  | Geheel getal |
 | Float  | 7.32  | Decimaal getal |
 | String | 'Engage' of "Engage" | Zin, kan al dan niet getallen bevatten|
 | Boolean | True of False | Neemt enkel deze 2 waarden aan|
-
-Om data op te slaan 
 
 Het gedrag hiervan bestuderen zullen we experimenteel doen, have fun!:
 ```python
