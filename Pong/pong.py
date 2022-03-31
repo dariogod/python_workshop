@@ -21,16 +21,42 @@ wn.setup(width=800, height=600)
 wn.tracer(0)
 
 # Paddle A
-# TODO
+paddle_a = turtle.Turtle()
+paddle_a.speed(0)
+paddle_a.shape("square")
+paddle_a.color("white")
+paddle_a.shapesize(stretch_wid=5,stretch_len=1)
+paddle_a.penup()
+paddle_a.goto(-350, 0)
 
 # Paddle B
-# TODO
+paddle_b = turtle.Turtle()
+paddle_b.speed(0)
+paddle_b.shape("square")
+paddle_b.color("white")
+paddle_b.shapesize(stretch_wid=5,stretch_len=1)
+paddle_b.penup()
+paddle_b.goto(350, 0)
 
 # Ball
-# TODO
+ball = turtle.Turtle()
+ball.speed(0)
+ball.shape("square")
+ball.color("white")
+ball.penup()
+ball.goto(0, 0)
+ball.dx = 1
+ball.dy = 1
 
 # Text: Score
-# TODO
+txt_score = turtle.Turtle()
+txt_score.speed(0)
+txt_score.shape("square")
+txt_score.color("white")
+txt_score.penup()
+txt_score.hideturtle()
+txt_score.goto(0, 260)
+txt_score.write("Player A: 0  Player B: 0", align="center", font=("Courier", 24, "normal"))
 
 
 ### Functions ###
@@ -59,7 +85,11 @@ def quit():
 ### Keyboard bindings ###
 
 wn.listen()
-wn.onkeypress(quit, 'q')
+wn.onkeypress(quit, "q")
+wn.onkeypress(paddle_a_up, "z")
+wn.onkeypress(paddle_a_down, "s")
+wn.onkeypress(paddle_b_up, "Up")
+wn.onkeypress(paddle_b_down, "Down")
 
 
 ### Main game loop ###
