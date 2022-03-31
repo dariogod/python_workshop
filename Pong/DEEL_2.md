@@ -49,23 +49,26 @@ ball.penup()
 ball.goto(0, 0)
 ```
 
-Oke, nu beginnen we aan het echte werk. Er zijn 2 paddles en een bal. Hoe gaan we ze laten bewegen?
+Nu beginnen we aan het echte werk. Er zijn 2 paddles en een bal. Hoe gaan we ze laten bewegen?
 ```python
 def paddle_a_up():
     y = paddle_a.ycor()
     y += 20
     paddle_a.sety(y)
 ```
-Nu hebben we een functie die paddle a omhoog laat gaan. We willen dat deze opgeroepen wordt telkens wanneer een toets wordt ingedrukt. We gaan de functie dus binden aan een toets op het toetsenbord.
+We hebben een functie nodig die paddle a omhoog laat gaan. We willen dat deze opgeroepen wordt telkens wanneer een toets wordt ingedrukt. We gaan de functie dus binden aan een toets op het toetsenbord.
 ```python
 wn.listen()
 wn.onkeypress(paddle_a_up, "z")
 ```
-Test it!
-Je zal zien dat je de paddle uit het scherm kan laten bewegen. Dit is niet de bedoeling. Hoe los je dit op?
+Test it!  
+Je zal zien dat je de paddle uit het scherm kan laten bewegen. Dit is niet de bedoeling. Hoe los je dit op?  
 Doe dit nu ook om de paddle naar beneden te laten gaan. En dan ook voor paddle b.
 
-Wat we nu willen doen is de bal een snelheid geven. We gaan deze splitsen in een x- en y-movement. We gaan dus naar het stukje code waar we de bal aangemaakt hebben en geven deze een beginsnelheid. Je kan spelen met deze nummers om met de snelheid te spelen.
+Wat we nu willen doen is de bal een snelheid geven.  
+We gaan deze splitsen in een x- en y-movement.  
+We gaan dus naar het stukje code waar we de bal aangemaakt hebben en geven deze een beginsnelheid.  
+Je kan spelen met deze nummers om met de snelheid te spelen.
 ```python
 ball.dx = 1
 ball.dy = 1
@@ -84,8 +87,10 @@ Beginnen met het begin, de posities aanpassen rekening houdend met de snelheid
 ball.setx(ball.xcor() + ball.dx)
 ball.sety(ball.ycor() + ball.dy)
 ```
-Test it!
+Test it!  
 De bal vliegt uit het scherm!
+
+We willen echter dat de bal botst op de randen.
 ```python
     # Border checking
     
@@ -94,42 +99,45 @@ De bal vliegt uit het scherm!
         ball.sety(290)
         ball.dy *= -1
 ```
-Test it!
-Analoog voor de onderkant
+Test it!  
+Maak een analoge conditie voor de onderkant.  
+
 Wanneer de bal voorbij de paddles gaan willen we dat er een punt wordt gescoord en dat de bal terug naar het centrum gaat.
 ```python
-    # Left and right
+    # right
     if ball.xcor() > 400:
         ball.goto(0, 0)
         ball.dx *= -1
 ```
-Test it!
+Test it!  
+Maak opnieuw een analoge conditie voor de linkerzijde.
+
 Stap 2: Controleren of er botsingen gebeuren tussen objecten
 ```python
     # Paddle and ball collisions
     if ball.dx < 0 and ball.xcor() < -330 and ball.xcor() > -350 and ball.ycor() < paddle_a.ycor() + 50 and ball.ycor() > paddle_a.ycor() - 50:
-        ball.dx *= -1.1
-        os.system("aplay -q bounce.wav&")
+        ball.dx *= -1
     
     elif ball.dx > 0 and ball.xcor() > 330 and ball.xcor() < 350 and ball.ycor() < paddle_b.ycor() + 50 and ball.ycor() > paddle_b.ycor() - 50:
-        ball.dx *= -1.1
+        ball.dx *= -1
 ```
-Test it! 
-Normaal gezien heb je nu een werkend spel! Het zou juist nog leuk zijn mochten we scores kunnen bijhouden.
+Test it!  
+Proficiat! Je hebt nu een werkend spel!  
+Om het spel competitief te maken kunnen we ook een scorebord bijhouden.  
 We willen dit ook op het scherm schrijven en we gaan hiervoor een pen gebruiken. Deze code kan je copy-pasten
 ```python
-# Pen
-pen = turtle.Turtle()
-pen.speed(0)
-pen.shape("square")
-pen.color("white")
-pen.penup()
-pen.hideturtle()
-pen.goto(0, 260)
-pen.write("Player A: 0  Player B: 0", align="center", font=("Courier", 24, "normal"))
+# Text: Score
+txt_score = turtle.Turtle()
+txt_score.speed(0)
+txt_score.shape("square")
+txt_score.color("white")
+txt_score.penup()
+txt_score.hideturtle()
+txt_score.goto(0, 260)
+txt_score.write("Player A: 0  Player B: 0", align="center", font=("Courier", 24, "normal"))
 ```
-Deze staan nu vast op 0 : 0 maar het is de bedoeling dat we scores bijhouden en deze ook updaten wanneer een punt wordt gescoord. 
-We houden dus twee variabelen bij
+Deze staan nu vast op 0:0, maar het is de bedoeling dat we scores bijhouden en deze ook updaten wanneer een punt wordt gescoord. 
+We houden dus twee variabelen bij.
 ```python
 # Score
 score_a = 0
