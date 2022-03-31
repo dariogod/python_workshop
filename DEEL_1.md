@@ -4,7 +4,7 @@
 In deze sectie gaan we over enkele basisvaardigheden die men nodig heeft om een eerste programma te schrijven.
 
 #### Directory opstellen
-Ga naar uw bureaublad en maak een nieuwe map. Noem deze bijvoorbeeld *Workshop_Python*  
+Ga naar uw bureaublad en maak een nieuwe map. Noem deze bijvoorbeeld *workshop*  
 In deze map zullen we al onze programma's steken.  
 Open nu VSC.  
 Ga naar File > Open Folder..  
