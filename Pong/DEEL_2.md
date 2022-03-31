@@ -124,7 +124,8 @@ Stap 2: Controleren of er botsingen gebeuren tussen objecten
 Test it!  
 Proficiat! Je hebt nu een werkend spel!  
 Om het spel competitief te maken kunnen we ook een scorebord bijhouden.  
-We willen dit ook op het scherm schrijven en we gaan hiervoor een pen gebruiken. Deze code kan je copy-pasten
+Om de score op het scherm te schrijven gebruiken we opnieuw een turtle.  
+Deze code kan je copy-pasten.
 ```python
 # Text: Score
 txt_score = turtle.Turtle()
