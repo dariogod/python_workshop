@@ -52,7 +52,7 @@ x = 20
 print(x)
 print(x/2)
 print(x**2)
-x++
+x += 1
 print(x)
 
 #String
